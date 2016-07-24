@@ -1,4 +1,4 @@
-##D3.js-heat-map-fcc
+##D3.js Animated Heat Map[FreeCodeCamp] 
 
 ###Data: https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/global-temperature.json
 
