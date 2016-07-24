@@ -1,0 +1,51 @@
+.center-block {
+	  display: block;
+	  margin-right: auto;
+	  margin-left: auto;
+	  margin-top: 50px;
+	}
+
+	body {
+	  font: 11px sans-serif;
+	  color: #fff;
+	  text-align: center;
+	  background: #0ed3c6;
+	  background: -moz-linear-gradient(45deg, #1c173d 0%, #2b88d9 38%, #0ed3c6 63%, #49cc99 100%);
+	  background: -webkit-linear-gradient(45deg, #1c173d 0%,#2b88d9 38%,#0ed3c6 63%,#49cc99 100%);
+	  background: linear-gradient(45deg, #1c173d 0%,#2b88d9 38%,#0ed3c6 63%,#49cc99 100%);
+	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+	}
+	svg{
+		background-color: rgba(255, 255, 255, 0.6);
+	}
+	.axis path,
+	.axis line {
+		fill: none;
+		stroke: #000;
+		shape-rendering: crispEdges;
+	}
+	.heat-map{
+		stroke-width: 0;
+	}
+	.legends:hover{
+		stroke: #000;
+	}
+
+	.heat-map, .legends {
+		cursor: pointer;
+	}
+
+	.tooltip {
+		position: absolute;
+		padding: 0 10px;
+		pointer-events: none;
+		background-color: rgba(0,0,0,0.8);
+		color: #fff;
+		line-height: 20px;
+		border-radius: 6px; 
+	}
+	.label{
+		font-size: 15px;
+		font-weight: bold;
+	}
